@@ -1,11 +1,11 @@
-* Detected CPU: GenuineIntel P3 family, F6/M10/S4, 2497.00 mhz, 20-clk 'rdtsc'
+* Detected CPU: GenuineIntel P3 family, F6/M10/S4, 2495.00 mhz, 18-clk 'rdtsc'
 * CPU Features: RDTSC, MMX, SSE, SSE2
 
 Initializing File System...
 using fs-ltx fsgame.ltx
-FS: 29975 files cached, 4890Kb memory used.
-Init FileSystem 0.334370 sec
-'X-Ray Engine' build 9718, Sep 16 2025
+FS: 29979 files cached, 4890Kb memory used.
+Init FileSystem 0.763838 sec
+'X-Ray Engine' build 9721, Sep 19 2025
 
 Initializing Engine...
 Executing config-script "user.ltx"...
@@ -14,10 +14,10 @@ Starting INPUT device...
 Loading DLL: xrRender_R2.dll
 Loading DLL: xrGame.dll
 ! Unable to find Software\GSC Game World\STALKER-SHOC\ in registry
-* [win32]: free[4045428 K], reserved[60100 K], committed[88712 K]
+* [win32]: free[4045256 K], reserved[60312 K], committed[88672 K]
 * [ D3D ]: textures[0 K]
-* [x-ray]: crt heap[9294 K], process heap[9294 K], game lua[0 K], engine lua[0 K], render[0 K]
-* [x-ray]: economy: strings[2006 K], smem[0 K]
+* [x-ray]: crt heap[9289 K], process heap[9289 K], game lua[0 K], engine lua[0 K], render[0 K]
+* [x-ray]: economy: strings[2000 K], smem[0 K]
 Executing config-script "d:\x-ray1.0007rc1_remaster\game\gamedataogsm\config\default_controls.ltx"...
 ! cant convert dik_name for dik[144], prop=[
 [d:\x-ray1.0007rc1_remaster\game\gamedataogsm\config\default_controls.ltx] successfully loaded.
@@ -65,7 +65,7 @@ Starting RENDER device...
 ! Renderer doesn't support blender 'effects\shadow_world'
 ! Version conflict in shader 'effects\watertest-1'
 count of .thm files=1
-load time=13 ms
+load time=16 ms
 * NULLRT supported
 * ...and used
 * HWDST/PCF supported and used
@@ -128,52 +128,52 @@ Loading DLL: xrGameSpy.dll
 - r2_tf_mipbias 0.
 * GPU shading: vs(fffe0300/3.0/30), ps(ffff0300/3.0/30)
 * GPU vertex cache: unrecognized, 16
-*** RESET [199 ms]
+*** RESET [221 ms]
 "d:\x-ray1.0007rc1_remaster\game\binaries\xrengine.exe" 
 * phase time: 0 ms
-* phase cmem: 104807 K
+* phase cmem: 107654 K
 Кэширование объектов...
 Loading objects...
 Loading models...
-* [prefetch] time:    2395 ms
-* [prefetch] memory:  436099Kb
-* phase time: 2416 ms
-* phase cmem: 534509 K
+* [prefetch] time:    2778 ms
+* [prefetch] memory:  436102Kb
+* phase time: 2801 ms
+* phase cmem: 537356 K
 Сервер: Старт...
-* phase time: 29 ms
-* phase cmem: 534766 K
+* phase time: 32 ms
+* phase cmem: 537614 K
 Сервер: Загрузка симуляции жизни...
-* phase time: 9 ms
-* phase cmem: 534767 K
+* phase time: 10 ms
+* phase cmem: 537614 K
 Создание новой игры...
 * Creating new game...
 * Loading spawn registry...
 * 8641 spawn points are successfully loaded
 * Saving spawns...
 * Saving objects...
-* 17145 objects are successfully saved
+* 17002 objects are successfully saved
 * Game all.sav is successfully saved to file 'd:\x-ray1.0007rc1_remaster\game\appdata\savedgames\all.sav'
 * New game is successfully created!
-* phase time: 1189 ms
-* phase cmem: 565277 K
+* phase time: 1211 ms
+* phase cmem: 568091 K
 Сервер: Соединяемся...
 MaxPlayers = 32
-* phase time: 18 ms
-* phase cmem: 565377 K
+* phase time: 15 ms
+* phase cmem: 568176 K
 Клиент: Соединение с localhost...
 # Player not found. New player created.
 * client : connection accepted - <>
-* phase time: 10 ms
-* phase cmem: 565401 K
+* phase time: 11 ms
+* phase cmem: 568200 K
 Открытие потока...
 * phase time: 10 ms
-* phase cmem: 565401 K
+* phase cmem: 568200 K
 Загрузка формы объектов...
-* phase time: 1193 ms
-* phase cmem: 638069 K
+* phase time: 1247 ms
+* phase cmem: 640868 K
 Загрузка шейдеров...
-* phase time: 122 ms
-* phase cmem: 639589 K
+* phase time: 141 ms
+* phase cmem: 642388 K
 Загрузка геометрии...
 * [Loading VB] 65532 verts, 2047 Kb
 * [Loading VB] 65525 verts, 2047 Kb
@@ -216,25 +216,25 @@ MaxPlayers = 32
 * [Loading IB] 1048575 indices, 2047 Kb
 * [Loading IB] 1048575 indices, 2047 Kb
 * [Loading IB] 718302 indices, 1402 Kb
-* phase time: 126 ms
-* phase cmem: 708480 K
+* phase time: 192 ms
+* phase cmem: 711279 K
 Загрузка базы пространств...
-* phase time: 345 ms
-* phase cmem: 713013 K
+* phase time: 325 ms
+* phase cmem: 715797 K
 Загрузка детальных объектов...
 * [DETAILS] VertexConsts(256), Batch(61)
 * [DETAILS] 40687 v(20), 26352 p
 * [DETAILS] Batch(61), VB(794K), IB(154K)
 * phase time: 25 ms
-* phase cmem: 714005 K
+* phase cmem: 716805 K
 Загрузка секторов и порталов...
 * Loading HOM: d:\x-ray1.0007rc1_remaster\game\gamedataogsm\levels\l01_escape\level.hom
-* phase time: 11 ms
-* phase cmem: 714178 K
+* phase time: 13 ms
+* phase cmem: 716978 K
 Загрузка ИИ объектов...
 - Loading music tracks from 'l01_escape_musics'...
-* phase time: 16 ms
-* phase cmem: 714234 K
+* phase time: 17 ms
+* phase cmem: 717033 K
 Клиент: Создание...
 - Game configuring : Started 
 - Game configuring : Finished 
@@ -317,20 +317,20 @@ MaxPlayers = 32
 [16-9] get_xml_name for[inventory_new.xml] returns [inventory_new_16.xml]
 [16-9] get_xml_name for[scroll_bar.xml] returns [scroll_bar.xml]
 [16-9] get_xml_name for[message_box.xml] returns [message_box.xml]
-* phase time: 78 ms
-* phase cmem: 722268 K
+* phase time: 83 ms
+* phase cmem: 725052 K
 Загрузка текстур...
 * t-report - base: 1444, 569502 K
 * t-report - lmap: 5, 5120 K
-* phase time: 1204 ms
-* phase cmem: 1022039 K
+* phase time: 1272 ms
+* phase cmem: 1024822 K
 Клиент: Синхронизация...
-* phase time: 14 ms
-* phase cmem: 1022039 K
-* [win32]: free[2508716 K], reserved[144596 K], committed[1540928 K]
+* phase time: 15 ms
+* phase cmem: 1024822 K
+* [win32]: free[2495572 K], reserved[150720 K], committed[1547948 K]
 * [ D3D ]: textures[574622 K]
-* [x-ray]: crt heap[1022039 K], process heap[1022039 K], game lua[26325 K], engine lua[124 K], render[0 K]
-* [x-ray]: economy: strings[4681 K], smem[28223 K]
+* [x-ray]: crt heap[1024822 K], process heap[1024822 K], game lua[26268 K], engine lua[222 K], render[0 K]
+* [x-ray]: economy: strings[4669 K], smem[28223 K]
 [16-9] get_xml_name for[game_tutorials.xml] returns [game_tutorials.xml]
 [16-9] get_xml_name for[ui_credits.xml] returns [ui_credits.xml]
 [16-9] get_xml_name for[ui_movies.xml] returns [ui_movies.xml]
@@ -349,11 +349,8 @@ MaxPlayers = 32
 [16-9] get_xml_name for[game_tutorials.xml] returns [game_tutorials.xml]
 [16-9] get_xml_name for[ui_credits.xml] returns [ui_credits.xml]
 [16-9] get_xml_name for[ui_movies.xml] returns [ui_movies.xml]
-Intro start 18053
-* MEMORY USAGE: 1067743 K
-[16-9] get_xml_name for[game_tutorials.xml] returns [game_tutorials.xml]
-[16-9] get_xml_name for[ui_credits.xml] returns [ui_credits.xml]
-[16-9] get_xml_name for[ui_movies.xml] returns [ui_movies.xml]
+Intro start 19528
+* MEMORY USAGE: 1068798 K
 [16-9] get_xml_name for[game_tutorials.xml] returns [game_tutorials.xml]
 [16-9] get_xml_name for[ui_credits.xml] returns [ui_credits.xml]
 [16-9] get_xml_name for[ui_movies.xml] returns [ui_movies.xml]
@@ -368,12 +365,6 @@ Intro start 18053
 [16-9] get_xml_name for[ui_movies.xml] returns [ui_movies.xml]
 [16-9] get_xml_name for[ui_mm_main.xml] returns [ui_mm_main.xml]
 [16-9] get_xml_name for[scroll_bar.xml] returns [scroll_bar.xml]
-[16-9] get_xml_name for[ui_mm_save_dlg.xml] returns [ui_mm_save_dlg.xml]
-[16-9] get_xml_name for[scroll_bar.xml] returns [scroll_bar.xml]
-* Saving spawns...
-* Saving objects...
-* 17907 objects are successfully saved
-* Game 1.sav is successfully saved to file 'd:\x-ray1.0007rc1_remaster\game\appdata\savedgames\1.sav'
 [16-9] get_xml_name for[message_box.xml] returns [message_box.xml]
 - Disconnect
 - Destroying level
