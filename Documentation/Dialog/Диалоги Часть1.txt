@@ -61,8 +61,6 @@
 
 1. Открываем, например файл dialogs_escape.xml (gamedata/config/gameplay) и пишем в конец:
 
-
-Код
 <dialog id="test_dialog">
         <phrase_list>
             <phrase id="0">
@@ -83,15 +81,10 @@
         </phrase_list>
     </dialog>
 
-
-<next>2</next>
-и
-<next>3</next> это возможные ответы Меченого. 
+<next>2</next> и <next>3</next> - это возможные ответы Меченого. 
 
 2. Теперь нужно написать тексты диалога. Заходим в файл "stable_dialogs_bar.xml" (gamedata/config/text/rus) и пишем в конце:
 
-
-Код
 <string id="test_dialog_0">
         <text>Как дела?</text>
     </string>
